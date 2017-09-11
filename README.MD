@@ -1,4 +1,4 @@
-# logback configuration
+# Logback configuration
 - __maxFileSize__: each time the current log file reaches __maxFileSize__ before the current time period ends, 
 it will be archived with an increasing index, starting at 0
 - __maxHistory__: controls the maximum number of archive files to keep, asynchronously deleting older files
@@ -10,3 +10,7 @@ applied second
 fileNamePattern option ends with .gz or .zip
 - https://garygregory.wordpress.com/2013/06/18/what-are-the-java-timezone-ids/
 - https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# TODO
+- handle rotate file
+- alert when exception
