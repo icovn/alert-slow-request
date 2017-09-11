@@ -2,7 +2,8 @@
 # jmsTransfer --> message transfer profile
 # linebotProcessor --> processor profile
 # simpleAlert --> alert profile
-spring.profiles.active: development-icovn,jmsTransfer,linebotProcessor,simpleAlert
+#spring.profiles.active: development,jmsTransfer,linebotProcessor,simpleAlert
+spring.profiles.active: development-icovn,jmsTransfer,linebotProcessor,lineAlert
 
 # LOGGING
 #logging.config: logback.xml
