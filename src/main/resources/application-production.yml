@@ -1,0 +1,5 @@
+# APP
+## max request time in millisecond
+app.max.request.time: 20
+app.input.filename: input.txt
+app.input.folder: /u01/projects/github/icovn/alert-slow-request/target/data
